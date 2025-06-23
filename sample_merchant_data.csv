@@ -1,9 +1,5 @@
 merchant_name,transaction_volume,transaction_region,mcc_code,days_since_last_txn
-Acme Retail Ltd,8000,North America,5411,12
-Sunshine Services,12000,Europe,8999,45
-CryptoFlow Corp,9500,EMEA,6051,2
-HighStreet Market,14000,Asia,5311,60
-Globex Imports,11000,North America,5814,10
-MidnightCBD,5000,North America,5999,31
-Speedy Transfers,16000,Europe,4816,3
-SafePayments Ltd,8700,Asia,4829,70
+Acme Ltd,8000,North America,5411,5
+Zen Corp,16000,Europe,6051,45
+Nova Global,7000,Asia,5999,20
+Eco Traders,12000,EMEA,8999,60
