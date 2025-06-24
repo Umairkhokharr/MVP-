@@ -1,5 +1,39 @@
 
 import streamlit as st
+
+st.markdown('''
+<style>
+body {
+    background: linear-gradient(to right, #f8f9fa, #eef1f5);
+}
+div.stButton > button {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+}
+div.stButton > button:hover {
+    transform: scale(1.05);
+    background-color: #0e76a8;
+    color: white;
+}
+.pulse {
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+    100% { transform: scale(1); }
+}
+.fadein {
+    animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+</style>
+''', unsafe_allow_html=True)
 import pandas as pd
 import numpy as np
 
